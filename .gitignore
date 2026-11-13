@@ -1,17 +1,25 @@
+
+# Python
 __pycache__/
-*.pyc
-
-.venv/
+*.py[cod]
 venv/
+.venv/
 
+# Environment variables
 .env
 .env.*
+
+# Keep example configuration
 !.env.example
 
-node_modules/
-frontend/dist/
+# Testing
+.pytest_cache/
+.coverage
 
-.vscode/
-*.log
+# Database
 *.db
-*.sqlite
+*.sqlite3
+
+# IDE
+.vscode/
+.idea/
