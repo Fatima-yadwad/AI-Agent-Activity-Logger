@@ -1,18 +1,19 @@
 
-# Python
-__pycache__/
-*.py[cod]
+# Environment variables and secrets
+.env
+.env.*
+!.env.example
+**/.env
+**/.env.*
+!**/.env.example
+
+# Python virtual environments
 venv/
 .venv/
 
-# Environment variables
-.env
-.env.*
-
-# Keep example configuration
-!.env.example
-
-# Testing
+# Python cache
+__pycache__/
+*.py[cod]
 .pytest_cache/
 .coverage
 
@@ -20,6 +21,14 @@ venv/
 *.db
 *.sqlite3
 
-# IDE
+# Frontend dependencies and build files
+node_modules/
+dist/
+
+# IDE files
 .vscode/
 .idea/
+
+# Operating system files
+.DS_Store
+Thumbs.db
