@@ -1,9 +1,19 @@
 
+# Backend framework
 fastapi
 uvicorn[standard]
+
+# Database
+sqlalchemy
+psycopg[binary]
+
+# AI integration
 google-genai
+
+# Configuration and validation
 python-dotenv
 pydantic
+
+# Testing
 pytest
 httpx
-sqlalchemy

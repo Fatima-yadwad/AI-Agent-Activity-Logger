@@ -1,3 +1,4 @@
+
 # Environment variables and secrets
 .env
 .env.*
@@ -14,8 +15,13 @@ venv/
 __pycache__/
 *.py[cod]
 .pytest_cache/
+.coverage
 
-# Frontend dependencies
+# Database
+*.db
+*.sqlite3
+
+# Frontend dependencies and build files
 node_modules/
 dist/
 
